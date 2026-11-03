@@ -3,6 +3,7 @@
 Retrieves the 100 nearest neighbours of a query molecule in the Enamine REAL Sample library, a set of 10,353,526 make-on-demand compounds indexed by Ersilia. Three learned embeddings are searched independently, namely CLAMP for bioactivity, SAND for 3D shape and Mol-JEPA for predicted biological context, and their rankings are fused into one list. Ersilia built the search with LazySim, which indexes each embedding with turbovec 4-bit quantization.
 
 This model was incorporated on 2026-10-27.
+Last packaged on 2026-11-02.
 
 ## Information
 ### Identifiers
@@ -43,11 +44,14 @@ _10 of 100 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Internal`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos8698](https://hub.docker.com/r/ersiliaos/eos8698)
+- **Docker Architecture:** `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8698.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8698.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `10445`
 - **Environment Size (Mb):** `588`
+- **Image Size (Mb):** `10964.5`
 
 
 ### References
