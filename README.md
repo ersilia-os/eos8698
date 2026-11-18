@@ -47,6 +47,7 @@ _10 of 100 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos8698](https://hub.docker.com/r/ersiliaos/eos8698)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8698.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8698.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos8698_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos8698_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `10445`
